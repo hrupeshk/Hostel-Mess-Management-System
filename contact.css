@@ -1,0 +1,61 @@
+.img-contact{
+   align-items: center;
+}
+.contact{ 
+    margin-top: 0px;
+    position: absolute;  
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    top: 20%;
+    width: 100%;
+    overflow-y: hidden;
+    font-size: 1.3em;
+    color: yellow; 
+ }
+ .flex 
+ {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .bg_img{
+    width: 100%;
+    height: 700px;
+    position: relative;  
+    z-index: -1; 
+ }
+
+ .number ,.email{ 
+   width: 600px;
+   height: 150px; 
+   background-color: rgba(0, 0, 0, 0.883); 
+   margin-bottom: 40px;
+   /* font-size: 2em; */
+   border-radius: 10px;
+ }
+ .phone-img img{
+   width: 50px;
+   height: 50px;
+   margin-right: 15px;
+ }
+ .location{
+   margin-left: 40px;
+   width: 600px;
+   height: 380px;
+ }
+ .text{
+   color: white;
+   font-size: 1.4em;
+   font-weight: 600; 
+ }
+ .font{
+  font-size: 2em; 
+ }
+ .location iframe{
+   border-radius: 8px;
+   box-shadow: rgba(0, 0, 0, 0.64) 0px 3px 8px;
+
+
+ }
