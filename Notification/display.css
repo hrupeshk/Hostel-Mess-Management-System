@@ -1,0 +1,30 @@
+/* .col-news{position: absolute;}   */
+.news{
+    width: 300px; 
+    height: 400px;
+}
+/* marquee{width: 100%;} */
+.new-section{
+    background-color: yellow;
+    font-size: 1.2rem;
+} 
+a{
+    text-decoration: none;
+} 
+.news h3{ 
+    width: 100%;
+    background-color: blue;
+    height: 30px;
+    font-size: 1.5rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 33%;   
+    height: 13%;
+    background-color: blue; 
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;  
+} 

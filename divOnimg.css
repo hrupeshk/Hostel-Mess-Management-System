@@ -1,0 +1,24 @@
+.container {
+    position: relative; /* Create a positioning context for the absolute positioned div */
+    display: inline-block; /* Optional: this ensures the container is only as wide as its contents */
+}
+
+.background-image {
+    display: block; /* Ensures the image behaves like a block-level element */
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.overlay {
+    position: absolute; /* Position absolutely within the container */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    width: 100%; /* Make the overlay the same width as the image */
+    height: 100%; /* Make the overlay the same height as the image */
+    background: rgba(0, 0, 0, 0.5); /* Optional: semi-transparent background */
+    color: white; /* Optional: text color */
+    display: flex; /* Optional: use flexbox to center content */
+    justify-content: center; /* Optional: center horizontally */
+    align-items: center; /* Optional: center vertically */
+    text-align: center; /* Optional: center text */
+}
