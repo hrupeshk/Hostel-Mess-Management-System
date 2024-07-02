@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hostel Mess Management System</title>
+    <link rel="icon" type="image/x-icon" href="./Assets/pmh_logo.png">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="menu.css" /> 
   </head>
@@ -11,32 +12,36 @@
     <div class="main"> 
       <header class="header"> 
         <div class="logo-div">
-          <div class="logo"><img src="pmh_logo.png" alt="" /></div>
-          <div class="logo-text">Patkai Hostel Mess</div>
+          <div class="logo"><img src="./Assets/pmh_logo.png" alt="" /></div>
+          <div class="logo-text">Patkai Mess Management System</div>
         </div>    
         
         <nav class="navigation"> 
-          <a href="#" class="anchor">Home</a> 
-          <a href="#" class="anchor">About</a>  
+            <a href="#" class="anchor">Home</a>                         
+            <a href="./about.html" class="anchor">About</a>  
           <a href="./contact.html" class="anchor">contact Us</a> 
           <div class="login-container"> 
              <button class="login-button">Login</button>
             <div class="hover-content">
              <a href="./Sign_in.php"> <button class="user-button">User</button></a>
-              <a href="./Admin_Sign_in.php"><button class="admin-button">Admin</button></a>
+              <a href="./adminSign_in.php"><button class="admin-button">Admin</button></a>
             </div>  
           </div>           
         </nav>  
       </header>
       <!-- ! place Notification on image  -->  
+      <div class="overlay"> 
+                <iframe src="./Notification/display.html" width="86%" height="440px"  frameborder="0"></iframe>
+          <a href="./Notification.html"  ><button class="btn ">view all</button></a>
+      </div> 
+
        <div class="news-on-img">
-            <img src="./img1.jpg" alt="Mess image" class="bg-img"/> 
-            <div class="overlay"> 
-                <iframe src="./Notification/display.html" width="23%" height="300px"  frameborder="0"></iframe>
-            </div> 
-        </div>
+           <img src="./Assets/img1.jpg" alt="Mess image" class="bg_img"/> 
+        </div> 
+       
+           
    
-      <!-- Menu Section -->
+      <!-- Menu Section --> 
       <div class="menu-title">Mess Menu</div>
       <div class="menu-news">
       <div class="menu"> 
@@ -55,31 +60,33 @@
             <div class="item">
                 <div class="title"><div class="text">Breakfast</div></div>
                 <div class="content">
-                    <p>Monday ka nasta</p>  
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
-                    <p>Banana</p>
+                    <p>Poha</p>  
+                    <p>Fried rice</p>
+                    <p>Curd/Aloo</p>
+                    <p>Tomato Sabji</p>
+                    <p>Red Tea</p>
                 </div>
             </div>
             <div class="item">
                 <div class="title"><div class="text">Lunch</div></div>
                 <div class="content">
-                    <p>Aaloo Poha &amp; Matki Ussal</p>
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
+                    <p>Rice</p>
+                    <p> Daal</p>
+                    <p>Green Vegitable</p>
+                    <p>Aloo Bhaaji</p>
+                    <p>Pickle</p>
                    
                 </div>
             </div>
             <div class="item">
                 <div class="title"><div class="text">Dinner</div></div>
                 <div class="content">
-                    <p>Aaloo Poha &amp; Matki Ussal</p>
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
-                    <p>Banana</p>
+                    <p>Rice</p>
+                    <p>Dal</p>
+                    <p>Egg Cury</p>
+                    <p>Baby Cprn</p>
+                    <p>Ring Papad</p>
+                    <p>Halwa</p>
                 </div>
             </div>
             <!-- Other meal items for Monday -->
@@ -89,28 +96,29 @@
             <div class="item">
                 <div class="title"><div class="text">Breakfast</div></div>
                 <div class="content">
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
+                    <p>puri</p>
+                    <p>Kabuli Chana chola</p>
+                    <p>Red Tea</p>
                 </div>
             </div>
             <div class="item">
                 <div class="title"><div class="text">Lunch</div></div>
                 <div class="content">
-                    <p>Aaloo Poha &amp; Matki Ussal</p>
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Banana</p>
+                    <p>Rice</p>
+                    <p> Daal</p>
+                    <p>Green Vegitable</p>
+                    <p>Green Chatni</p>
                 </div>
             </div>
+                    
             <div class="item">
                 <div class="title"><div class="text">Dinner</div></div>
                 <div class="content">
-                    <p>Aaloo Poha &amp; Matki Ussal</p>
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
-                    <p>Banana</p>
+                    <p>Rice</p>
+                    <p>Dal</p>
+                    <p>Manchurian Paneer</p>
+                    <p>Sewai </p>
+                    <p>Papad</p>
                 </div>
             </div>
             <!-- Other meal items for Monday -->
@@ -120,31 +128,28 @@
             <div class="item">
                 <div class="text">Breakfast</div> 
                 <div class="content">
-                    <p>Aaloo Poha &amp; Matki Ussal</p>
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
-                    <p>Banana</p>
+                    <p>Bread jam</p>
+                    <p>Banana/Boiled egg</p>
+                    <p>Red tea</p>
                 </div>
             </div>
             <div class="item">
                 <div class="text">Lunch</div>
                 <div class="content">
-                    <p>Aaloo Poha &amp; Matki Ussal</p>
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
-                    <p>Banana</p>
+                    <p>Rice</p>
+                    <p>Dal</p>
+                    <p>Muri Ghonto</p>
+                    <p>Pakodi</p> 
                 </div>
             </div>
             <div class="item">
                 <div class="text">Dinner</div>
                 <div class="content">
-                    <p>Aaloo Poha &amp; Matki Ussal</p>
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
-                    <p>Banana</p>
+                    <p>Rice </p>
+                    <p>Dal</p>
+                    <p>Chicken</p>
+                    <p>Paneer</p>
+                    <p>Aloo Bhaaji</p>
                 </div>
             </div>
             <!-- Other meal items for Monday -->
@@ -154,31 +159,30 @@
             <div class="item">
                 <div class="title"><div class="text">Breakfast</div></div>
                 <div class="content">
-                    <p>Aaloo Poha &amp; Matki Ussal</p>
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
-                    <p>Banana</p>
+                    <p>Bun</p>
+                    <p>Bhaaji</p>
+                    <p>Red Tea</p>
                 </div>
             </div>
             <div class="item">
                 <div class="title"><div class="text">Lunch</div></div>
                 <div class="content">
-                    <p>Aaloo Poha &amp; Matki Ussal</p>
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
-                    <p>Banana</p>
+                    <p>Rice</p>
+                    <p>Dal</p>
+                    <p>Frence rice</p>
+                    <p>Green Vegitable</p>
                 </div>
             </div>
             <div class="item">
                 <div class="title"><div class="text">Dinner</div></div>
                 <div class="content">
                    
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
-                    <p>Banana</p>
+                    <p>Rice</p>
+                    <p>Dal</p>
+                    <p>Paneer</p>
+                    <p>Kheer</p>
+                    <p>Ring Papad</p> 
+                    <p>Dahi</p>
                 </div>
             </div>
             <!-- Other meal items for Monday -->
@@ -253,37 +257,37 @@
         </div>
         <div class=" day-content" data-day="sunday">
             
-            <div class="item">
+        <div class="item">
                 <div class="title"><div class="text">Breakfast</div></div>
                 <div class="content">
-                    <p>Aaloo Poha &amp; Matki Ussal</p>
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
+                    <p>Aloo Paratha</p>  
+                    <p>Pickle</p>
+                    <p>Sauce</p>
+                    <p>Milk Tea</p>
                     <p>Banana</p>
                 </div>
             </div>
             <div class="item">
                 <div class="title"><div class="text">Lunch</div></div>
                 <div class="content">
-                    <p>Aaloo Poha &amp; Matki Ussal</p>
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
-                    <p>Banana</p>
+                    <p>Rice</p>
+                    <p>Fried Daal</p>
+                    <p>green Vegitable</p>
+                    <p>French frice </p>
+                    <p>Papad</p>
+                   
                 </div>
             </div>
             <div class="item">
                 <div class="title"><div class="text">Dinner</div></div>
                 <div class="content">
-                    <p>Aaloo Poha &amp; Matki Ussal</p>
-                    <p>Jalebi BBJ</p>
-                    <p>Tea</p>
-                    <p>Egg/Omelette/Full Fry</p>
-                    <p>Banana</p>
+                    <p>Rice</p>
+                    <p>Dal</p>
+                    <p>Chicken</p>
+                    <p>Paneer</p>
+                    <p>Pakodi</p>
                 </div>
             </div>
-            <!-- Other meal items for Monday -->
         </div>
       </div> 
       </div>
